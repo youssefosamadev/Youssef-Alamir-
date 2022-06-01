@@ -1,0 +1,523 @@
+body {
+  font-family: "Lato", sans-serif;
+  height: 535vh;
+  scroll-behavior: smooth;
+}
+
+/* Start css Home */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  text-align: center;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #818181;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 678px) {
+  .opennav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .topnav {
+    display: none;
+  }
+}
+.navbar {
+  color: black;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 5%;
+}
+
+.YUsama {
+  color: black;
+  font-size: 35px;
+  font-weight: 900;
+  text-decoration: none;
+  display: none;
+}
+
+.YUsama:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.bg {
+  background-image: url("images/modern-white-background-free-vector.jpg");
+  width: 100%;
+  height: 690px;
+  background-repeat: no-repeat;
+  z-index: 999999;
+}
+
+.ultopnav {
+  text-align: center;
+  list-style: none;
+  color: black;
+  display: flex;
+}
+
+.litopnav {
+  text-decoration: none;
+  color: black;
+  margin-right: 7%;
+  font-size: 27px;
+}
+
+.litopnav a {
+  text-decoration: none;
+  color: black;
+}
+
+.litopnav a:hover {
+  color: #0d6efd;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.textname {
+  margin-top: 9%;
+  margin-left: 9%;
+  font-size: 54px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  display: none;
+}
+
+.textjob {
+  font-size: 54px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-left: 10%;
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .textjob {
+    font-size: 40px;
+  }
+  .textname {
+    margin-top: 25%;
+    font-size: 40px;
+  }
+}
+
+.textnameandjob :hover {
+  color: #0d6efd;
+  transition: all 0.5s ease-in-out;
+}
+
+/* End css Home */
+
+/* Start css More  */
+
+.More {
+  display: none;
+}
+
+.icon {
+  font-size: 37px;
+  padding-top: 7%;
+  color: #0d6efd;
+}
+
+.LoremIpsum {
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.box {
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+  margin-top: 5%;
+  padding-left: 3%;
+  margin-left: 7%;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 10%;
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    margin-left: 0;
+    padding-left: 14%;
+  }
+}
+
+.box:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.description {
+  font-weight: 900;
+  line-height: 25px;
+}
+
+.imgabout {
+  width: 100%;
+  height: 100%;
+}
+
+/* Start css More  */
+
+/* start About CSS */
+
+.about {
+  display: none;
+  text-align: center;
+  background-color: #f6f9fe;
+}
+.about h1 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+.about h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 2%;
+}
+
+.about p {
+  font-weight: 700;
+  color: #444444;
+}
+
+.about img {
+  max-width: 100%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.Voluptatem {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 15%;
+  margin-bottom: 3%;
+  transition: animate__backInUp;
+}
+
+.Lorem {
+  font-style: italic !important;
+  color: #444444;
+}
+
+.store {
+  background: #fff;
+  box-shadow: 0px 6px 15px rgb(16 110 234 / 12%);
+  font-size: 24px;
+  padding: 20px;
+  color: #106eea;
+  border-radius: 50px;
+  margin-top: 5%;
+}
+
+.pop {
+  margin-top: 10%;
+}
+
+.liabout {
+  list-style: none;
+}
+
+.Ullamco {
+  font-size: 18px;
+  color: #555555;
+}
+
+.Magni {
+  margin-left: 2%;
+}
+
+.laboris {
+  font-size: 20px;
+}
+
+/* End About CSS */
+
+/* start Victory css */
+.DIGITAL {
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+
+.Victory {
+  background-color: #f6f9fe;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.Calm {
+  background-color: #f6f9fe;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.Victory h1 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.Victory h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 2%;
+}
+
+.Victory p {
+  font-weight: 700;
+  color: #444444;
+}
+
+.VictoryResturant {
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+  background-color: white;
+  margin-top: 5%;
+  padding-left: 3%;
+  margin-left: 7%;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 1%;
+}
+
+.Screenshot3 {
+  width: 100%;
+}
+
+/* End Victory CSS */
+
+/* start Skills css */
+
+.imgskills {
+  margin-top: 5%;
+  width: 100%;
+}
+
+.Skills {
+  text-align: center;
+  display: none;
+}
+.main-color {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #106eea;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.Skillsbar {
+  text-align: center;
+}
+
+.bar {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 1024px) {
+  .bar {
+    width: 80%;
+  }
+}
+
+/* End Skills CSS */
+
+/* Start Contact Us Css */
+.contact {
+  text-align: center;
+  display: none;
+}
+
+.location {
+  font-size: 32px;
+  color: #106eea;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #b3d1fa;
+}
+
+.address {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.adres {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgb(214 215 216 / 30%);
+  padding: 20px 0 30px 0;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.Myimg {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 10%;
+  border: double 15px black;
+}
+
+.input-name {
+  border: 1px solid #ced4da;
+  padding: 10px 25px;
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+
+.input-Email {
+  border: 1px solid #ced4da;
+  padding: 10px 25px;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.input-Subject {
+  border: 1px solid #ced4da;
+  padding: 10px 25px;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  width: 90%;
+}
+.input-Message {
+  border: 1px solid #ced4da;
+  padding: 10px 25px;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  width: 90%;
+  padding-bottom: 20%;
+}
+@media screen and (max-width: 1024px) {
+  .input-Subject {
+    width: 100%;
+  }
+  .input-name {
+    width: 100%;
+  }
+
+  .input-Email {
+    width: 100%;
+  }
+  .input-Message {
+    width: 100%;
+  }
+}
+.form {
+  box-shadow: 0 0 30px rgb(214 215 216 / 40%);
+  padding: 30px;
+  margin-top: 7%;
+  height: 50%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.SendMassege {
+  padding: 10px 32px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 7px;
+}
+/* End Contact Us Css */
+
+/* btn scroll */
+#myBtn {
+  transition: all 0.4s;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
