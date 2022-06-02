@@ -36,10 +36,10 @@
                                 </div>
                                 <div id="mySidenav" class="sidenav">
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                    <a href="#Home">About</a>
-                                    <a href="#Work">Work</a>
-                                    <a href="#Skills">Skills</a>
-                                    <a href="#Contact">Contact</a>
+                                    <a href="#Home" onclick="closeNav()">About</a>
+                                    <a href="#Work" onclick="closeNav()">Work</a>
+                                    <a href="#Skills" onclick="closeNav()">Skills</a>
+                                    <a href="#Contact" onclick="closeNav()">Contact</a>
                                 </div>
                                 <span class="opennav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
                                 </span>
@@ -99,7 +99,7 @@
 
     <section class="about" id="About">
         <div class="container">
-            <h2 class="main-color">About</h2>
+            <h2 class="main-About">About</h2>
             <h3>Find Out More About Us</h3>
             <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
                 vitae autem
@@ -145,13 +145,12 @@
     <section class="Victory" id="Work">
         <div class="our-work">
             <div class="container-fluid ">
-                <h2 class="main-color">Work</h2>
+                <h2 class="main-Work">Work</h2>
                 <h3>Find Out More Work</h3>
                 <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas
                     atquevitae autem. </p>
                 <div class=" row">
-                    <div class="col-2"></div>
-                    <div class="col-8 VictoryResturant">
+                    <div class="col-9 VictoryResturant">
                         <p class="DIGITAL">DIGITAL PRODUCT DESIGN, UI/UX</p>
                         <h2>Victory Resturant</h2>
                         <p class="Restaurant">Restaurant website that helps you to know the menu and request your
@@ -167,8 +166,7 @@
         <div class="our-work">
             <div class="container-fluid">
                 <div class="row">
-                    <div class=""></div>
-                    <div class="col-8 VictoryResturant">
+                    <div class="col-9 VictoryResturant">
                         <p class="DIGITAL">DIGITAL PRODUCT DESIGN, UI/UX</p>
                         <h2>Calm</h2>
                         <p class="Restaurant">QR-code Scanner APP that can Scan the code and check that it valid or not
@@ -179,7 +177,7 @@
             </div>
         </div>
     </section>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
 
     <!-- End Victory Html -->
 
@@ -187,20 +185,18 @@
 
     <section class="Skills" id="Skills">
         <div class="container-fluid ">
-            <h2 class="main-color">My Skills</h2>
+            <h2 class="main-Skills">My Skills</h2>
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-md-5">
-                    <img class="imgskills"
-                        src="images/man-holding-digital-tablet-business-skills-concept-man-holding-digital-tablet-business-skills-concept-135398530.jpg"
-                        alt="">
+                    <img class="imgskills" src="images/training-and-skill-development-500x500.jpg" alt="">
                 </div>
                 <div class="col-4 bar">
                     <div class="container mt-5 aos-init aos-animate Skillsbar" data-aos="fade-up">
                         <div class="row" style="width: 80%;">
                             <div class="col-md-12">
                                 <div class="pb-5">
-                                    <h6>Html</h6>
+                                    <h6 class="lang">Html</h6>
                                     <div class="progress">
                                         <div class="progress-bar" style="width:90%">90%</div>
                                     </div>
@@ -208,7 +204,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="pb-5">
-                                    <h6>Css</h6>
+                                    <h6 class="lang">Css</h6>
                                     <div class="progress">
                                         <div class="progress-bar" style="width:80%">80%</div>
                                     </div>
@@ -216,7 +212,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="pb-5">
-                                    <h6>Java scribt</h6>
+                                    <h6 class="lang">Java scribt</h6>
                                     <div class="progress">
                                         <div class="progress-bar" style="width:65%">65%</div>
                                     </div>
@@ -224,7 +220,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="pb-5">
-                                    <h6>Botstrab</h6>
+                                    <h6 class="lang">Botstrab</h6>
                                     <div class="progress">
                                         <div class="progress-bar" style="width:60%">60%</div>
                                     </div>
@@ -232,7 +228,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="">
-                                    <h6>jquery</h6>
+                                    <h6 class="lang">jquery</h6>
                                     <div class="progress">
                                         <div class="progress-bar" style="width:70%">70%</div>
                                     </div>
@@ -250,7 +246,7 @@
     <!-- Start Contact Us Html -->
     <section class="contact" id="Contact">
         <div class="container">
-            <h2 class="main-color">Contact Us</h2>
+            <h2 class="main-Contact">Contact Us</h2>
             <div class="row">
 
                 <div class="col-md-5 info-box">
