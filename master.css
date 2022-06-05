@@ -5,7 +5,6 @@ body {
 }
 
 /* Start css Home */
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -154,13 +153,13 @@ body {
 }
 
 .icon {
-  font-size: 37px;
+  font-size: 35px;
   padding-top: 7%;
   color: #0d6efd;
 }
 
 .LoremIpsum {
-  font-size: 20px;
+  font-size: 17px;
   margin-top: 5%;
 }
 
@@ -169,7 +168,7 @@ body {
   padding: 10px;
   box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
   margin-top: 5%;
-  padding-left: 3%;
+  text-align: center;
   margin-left: 7%;
   transition: all 0.5s ease-in-out;
   margin-bottom: 10%;
@@ -188,8 +187,8 @@ body {
 }
 
 .description {
-  font-weight: 900;
-  line-height: 25px;
+  font-weight: 300;
+  line-height: 30px;
 }
 
 .imgabout {
@@ -244,20 +243,20 @@ body {
 }
 
 .about p {
-  font-weight: 700;
+  font-weight: 900;
   color: #444444;
 }
 
 .about img {
   max-width: 100%;
-  margin-top: 1%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
 .Voluptatem {
   font-size: 25px;
   font-weight: 700;
-  margin-top: 15%;
+  margin-top: 5%;
   margin-bottom: 3%;
   transition: animate__backInUp;
 }
@@ -339,7 +338,7 @@ body {
   display: none;
 }
 
-.Calm h2 {
+.Calmwork {
   color: darkblue;
 }
 
@@ -429,7 +428,7 @@ body {
     margin-left: 20%;
   }
 
-  .imgskills{
+  .imgskills {
     margin-top: 5%;
     width: 100%;
     margin-left: 0;
@@ -441,7 +440,7 @@ body {
   }
 }
 
-.lang{
+.lang {
   font-size: 18px;
 }
 
@@ -486,12 +485,13 @@ body {
 
 .address {
   font-size: 20px;
-  color: #777777;
+  color: black;
   font-weight: 700;
   margin: 10px 0;
 }
 
 .adres {
+  color: black;
   padding: 0;
   line-height: 24px;
   font-size: 14px;
@@ -505,6 +505,11 @@ body {
   padding: 20px 0 30px 0;
   margin-left: 2%;
   margin-top: 5%;
+}
+.info-box:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: lightblue;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1440px) {
